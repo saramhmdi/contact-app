@@ -1,0 +1,22 @@
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: gray;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: #451b0225 0px 7px 29px 0;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  transition: opacity 0.5s ease-in-out;
+}
+.closeButton {
+  background: none;
+  border: none;
+  color: rgb(237, 90, 11);
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
